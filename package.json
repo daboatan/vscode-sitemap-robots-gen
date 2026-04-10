@@ -1,12 +1,20 @@
 {
-  "name": "seo-file-generator-private",
-  "displayName": "SEO File Generator (Private)",
+  "name": "vscode-sitemap-robots-gen-private",
+  "displayName": "Sitemap + Robots.txt Generator",
   "description": "Generate sitemap.xml and robots.txt in the same folder as the currently opened HTML file using its canonical URL.",
   "version": "1.0.0",
-  "publisher": "private",
-  "private": true,
+  "publisher": "daboatan",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daboatan/vscode-sitemap-robots-gen.git"
+  },
+  "bugs": {
+    "url": "https://github.com/daboatan/vscode-sitemap-robots-gen/issues"
+  },
+  "homepage": "https://github.com/daboatan/vscode-sitemap-robots-gen#readme",
   "engines": {
-    "vscode": "^1.85.0"
+    "vscode": "^1.80.0"
+  }
   },
   "categories": [
     "Other"
