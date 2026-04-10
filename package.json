@@ -14,7 +14,6 @@
   "homepage": "https://github.com/daboatan/vscode-sitemap-robots-gen#readme",
   "engines": {
     "vscode": "^1.80.0"
-  }
   },
   "categories": [
     "Other"
