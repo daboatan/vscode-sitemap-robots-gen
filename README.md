@@ -8,7 +8,7 @@ This VS Code extension generates these two files in the same folder as your curr
 It reads the canonical URL from the active HTML file, for example:
 
 ```html
-<link rel="canonical" href="https://3peakscrossfit.com/member-reviews/">
+<link rel="canonical" href="https://example.com/dir/" />
 ```
 
 ## What it does
@@ -28,7 +28,7 @@ When you run the command:
 User-agent: *
 Allow: /
 
-Sitemap: https://3peakscrossfit.com/member-reviews/sitemap.xml
+Sitemap: https://example.com/dir/sitemap.xml
 ```
 
 ### sitemap.xml
@@ -65,7 +65,6 @@ Then install the generated `.vsix` file in VS Code.
 - The HTML file must already be saved.
 - The canonical URL must be present.
 - The extension normalizes the canonical URL to end with `/` before generating the sitemap URL.
-
 
 ## Button integration
 
